@@ -361,25 +361,6 @@ def main():
     plt.savefig("positive.png")
     # plt.show()
 
-    #
-
-    # plt.hist(datasource.prediction, bins=2, align="mid")
-    # plt.xticks(range(2), ["Negative", "Positive"])
-    # plt.xlabel("Sentiment of Reviews")
-    # plt.title("Distribution of Sentiment")
-    # plt.show()
-
-    # print("------------------------------------------")
-    # print("Rating Analysis")
-    # print(datasource["label"].value_counts())
-    # print("------------------------------------------")
-
-    # plt.hist(datasource.label, bins=2, align="mid")
-    # plt.xticks(range(2), ["Negative", "Positive"])
-    # plt.xlabel("Sentiment of Reviews")
-    # plt.title("Distribution of Sentiment")
-    # plt.show()
-
     # generate wordcloud
     generate_wordcloud(dataframe=datasource)
 
